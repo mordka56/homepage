@@ -1,0 +1,9 @@
+.guide {
+    color: rgb(69, 69, 69);
+    background-color: rgb(235 247 255);
+    border-bottom: 1px solid rgb(107 174 255);
+}
+
+.guide__list {
+    list-style: none;
+}

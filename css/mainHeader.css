@@ -1,0 +1,17 @@
+.mainHeader {
+    color: rgb(69, 69, 69);
+    background-color: rgb(235 247 255);
+    border-bottom: 4px solid rgb(107 174 255);
+}
+
+.mainHeader__button {
+    color: rgb(69, 69, 69);
+    background-color: rgb(191 210 255);
+    margin-left: 85%;
+    border: 3px solid #5f60c2;
+    border-radius: 10px;
+}
+
+.mainHeader__element {
+    min-width: 200px;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja strona internetowa
+    </title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/mainHeader.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/link.css" rel="stylesheet">
+    <link href="css/images.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Square+Peg&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+
+    <header class="mainHeader"><button class="mainHeader__button js-button">Włącz <span
+                class="mainHeader__themeName js-themeName">ciemny</span> motyw
+        </button>
+        <div class="mainHeader__element"> Moja strona internetowa</div>
+    </header>
+    <nav class="guide">
+
+        <ul>
+            <li class="guide__list"><a class="link" href="#mainHeader">Strona główna</a></li>
+            <li class="guide__list"><a class="link" href="#headerMe"> O mnie</a></li>
+            <li class="guide__list"><a class="link" href="#Drugi-artykuł">Moje
+                    pasje</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <h1 class="headerMe ">Kilka słów o mnie</h1>
+        <img class="image" width="200" height="200" src="https://i.imgur.com/ZFaUyt1.jpg" alt="Jarosław Bogdański">
+
+        <article class="article">
+            <h2 class="article__header"> Jarosław <strong class="article__strong">'Jaro'</strong> Bogdański</h2>
+            <p class="article__paragraph">Nazywam się Jarosław Bogdański i urodziłem się 19 kwietnia w Kutnie.
+                Interesuje
+                się
+                e-sportem,
+                piłką nożną, psychologią i kryminalistyką. Mam nadzieję, że do kręgu moich zainteresowań dojdzie
+                niedługo
+                <b>programowanie.</b> W
+                wolnych chwilach biegam i ćwiczę na siłowni. Od dziecka gram w gry komputerowe a najczęściej jest to
+                League
+                of
+                legends. Słucham muzyki niemalże 24/7 a moim ulubionym wykonawcą jest <a class="link" target="_blank"
+                    rel="noreferrence noppener"
+                    href="https://www.instagram.com/accounts/login/?next=/major_spz_official/">Major
+                    SPZ (Instagram Majora).</a> Moja ulubiona nutka to <a class="link" target="_blank"
+                    rel="noreferrence noppener" href="https://www.youtube.com/watch?v=8vdArXicA_Q"> Dwa asy- wegetacja
+                    (otworzy się w nowej
+                    karcie).</a>
+                Moja największa wada to <b class="article__bcolor">lenistwo</b> a największa zaleta to
+                <i>myślenie odbiegające
+                    od schematów.</i>
+        </article>
+
+        <article class="article" id="Drugi-artykuł">
+            <h2 class="article__header">Mój ulubiony klub piłkarski</h2>
+            <img class="image" width="200" src="https://imgur.com/RJME5qj.jpg" alt="herbRealu">
+            <h3 class="article__smallHeader">Krótka historia klubu</h3>
+            <p class="article__paragraph">Real Madryt, hiszp. Real Madrid Club de Fútbol – hiszpański klub sportowy
+                powstały w
+                1902.
+                Słynie
+                głównie
+                z sukcesów istniejącej od chwili założenia drużyny piłki nożnej, która 34 razy zdobyła mistrzostwo
+                Hiszpanii, 13 razy Puchar Europy/Ligę Mistrzów, a także wiele innych trofeów, w tym przyznany w 2000
+                przez
+                FIFA tytuł najlepszego klubu w XX wieku. Po więcej odsyłam do <a class="link"
+                    title="Wikipedia- Real Madryt" target="_blank" rel="noreferrence noppener"
+                    href="https://pl.wikipedia.org/wiki/Real_Madryt">Wikipedii.</a>
+        </article>
+        <table class="table">
+            <caption>
+                <h3 class="table__smallHeader">Top 3 La Liga w tym sezonie (stan na 17 marca 2022r.)</h3>
+            </caption>
+            <tr>
+                <th class="table__header" scope="col">Lp</th>
+                <th class="table__header" scope="col">Drużyna</th>
+                <th class="table__header" scope="col">M</th>
+                <th class="table__header" scope="col">Pkt</th>
+                <th class="table__header" scope="col">Z</th>
+                <th class="table__header" scope="col">R</th>
+                <th class="table__header" scope="col">P</th>
+                <th class="table__header" scope="col">Bramki</th>
+            </tr>
+            <tr>
+                <th class="table__header" scope="row">1</th>
+                <td class="table__cell ">Real Madryt</td>
+                <td class="table__cell ">31</td>
+                <td class="table__cell ">72</td>
+                <td class="table__cell ">22</td>
+                <td class="table__cell ">6</td>
+                <td class="table__cell ">3</td>
+                <td class="table__cell">63‑26</td>
+            </tr>
+            <tr>
+                <th class="table__header" scope="row">2</th>
+                <td class="table__cell">FC Barcelona</td>
+                <td class="table__cell">30</td>
+                <td class="table__cell">60</td>
+                <td class="table__cell">17</td>
+                <td class="table__cell">9</td>
+                <td class="table__cell">4</td>
+                <td class="table__cell">59‑31</td>
+            </tr>
+            <tr>
+                <th class="table__header" scope="row">3</th>
+                <td class="table__cell">Sevilla FC</td>
+                <td class="table__cell">31</td>
+                <td class="table__cell">60</td>
+                <td class="table__cell">16</td>
+                <td class="table__cell">12</td>
+                <td class="table__cell">3</td>
+                <td class="table__cell">44‑22</td>
+            </tr>
+        </table>
+
+
+        <article class="article">
+            <h2 class="article__header">Moja ulubiona drużyna e-sportowa</h2>
+            <img class="image" width="350" src="https://imgur.com/JrptmHa.jpg" alt="logo G2">
+            <h3 class="article__smallHeader">Krótka charakterystyka sekcji lola (tylko sekcja lola mnie interesuje)
+            </h3>
+            <p class="article__paragraph">Jeden z najlepszych składów, jakie kiedykolwiek stworzyła Europa, ta
+                wielokrotnie
+                nagradzana superdrużyna jest tutaj, aby pokonać tytanów i zmienić wszystko, co wiesz o League of
+                Legends.
+                Możesz ich zobaczyć, jak co tydzień rywalizują w League of Legends European Championship (LEC).
+            </p>
+        </article>
+    </main>
+    <footer class="footer">©Copyright 2022 by Jaro- wszystkie prawa zastrzeżone</footer>
+
+</body>
+
+</html>

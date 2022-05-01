@@ -1,0 +1,28 @@
+.article__header {
+    color: rgb(69, 69, 69);
+    background-color: rgb(235 247 255);
+    border-top: 5px solid #5f60c2;
+    box-shadow: 5px -5px 5px 0px #B4B0B7;
+}
+
+.article__paragraph {
+    color: rgb(69, 69, 69);
+    background-color: rgb(235 247 255);
+    border-top: 3px solid #5f60c2;
+    box-shadow: 5px -5px 5px 0px #B4B0B7;
+    line-height: 1.5;
+}
+
+.article__smallHeader {
+    color: rgb(69, 69, 69);
+    background-color: rgb(235 247 255);
+    border-top: 4px solid #5f60c2;
+    box-shadow: 5px -5px 5px 0px #B4B0B7;
+}
+.article__strong {
+    color: #5f60c2;
+
+}
+.article__bcolor {
+    color: rgb(184, 4, 37);
+}

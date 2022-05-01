@@ -1,0 +1,26 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(251, 251, 251);
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.dark {
+    background-color: rgb(184 213 255);
+}
+
+.headerMe {
+    color: rgb(69, 69, 69);
+    background-color: rgb(235 247 255);
+    border-bottom: 4px solid rgb(107 174 255);
+}

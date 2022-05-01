@@ -1,0 +1,15 @@
+.link {
+    color: rgb(77, 157, 255);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(90, 130, 198);
+    border-bottom: 1px solid;
+    outline: none;
+
+}
+
+.link:active {
+    color: rgb(112, 160, 204);
+}
