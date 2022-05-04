@@ -1,4 +1,4 @@
-console.log("Pozdrawiam Kurkę i Karinę, Najlepsze dziewczyny z watu")
+console.log ("Pozdrawiam Kurkę i Karinę, Najlepsze dziewczyny z watu");
 let button = document.querySelector(".js-button");
 let body = document.querySelector(".body");
 let themeName = document.querySelector(".js-themeName");
