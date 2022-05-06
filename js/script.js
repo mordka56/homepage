@@ -1,11 +1,15 @@
-console.log("Pozdrawiam Kurkę i Karinę, Najlepsze dziewczyny z watu!");
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".js-themeName");
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
-    if (body.classList.contains("dark")) {
-        themeName.innerText = "jasny ";
-    } else { themeName.innerText = "ciemny"; }
+{
+    const toggleBackground = () => {
+        const body = document.querySelector(".body");
+        const themeName = document.querySelector(".js-themeName");
+        body.classList.toggle("dark");
+        themeName.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
 
-});
+    };
+    const init = () => {
+        let changeBackgroundButton = document.querySelector(".js-button");
+        changeBackgroundButton.addEventListener("click", toggleBackground);
+    };
+    init();
+}
+
