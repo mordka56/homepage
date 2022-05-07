@@ -7,5 +7,7 @@
 https://mordka56.github.io/homepage/
 
 
-### Opis 
-Moja pierwsza strona internetowa przedstawiająca mnie i moje zainteresowania.
+### Description 
+My first website introducing me and my interests.
+
+es6+ features, BEM
